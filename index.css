@@ -164,7 +164,7 @@ section#footer {
   justify-content: center;
 }
 
-#contact-links>li {
+#contact-links > li {
   padding: 0 1rem;
 }
 
@@ -195,14 +195,15 @@ section#footer {
 }
 
 .project-description {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem
 }
 
 .project-links {
   margin-bottom: 1rem;
 }
 
-.project-links>li {
+.project-links > li {
+  text-align: center;
   margin-bottom: 0.3rem;
 }
 
@@ -228,7 +229,7 @@ section#footer {
   margin-right: 0.5rem;
 }
 
-#project-ideas-list>li {
+#project-ideas-list > li {
   display: flex;
   margin-bottom: 2rem;
 }
@@ -281,6 +282,10 @@ section#footer {
   #past-projects-list > li {
     display: flex;
     flex-wrap: nowrap;
+  }
+
+  .project-links > li {
+    text-align: left;
   }
 
   .project-thumbnail-container {
