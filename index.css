@@ -1,4 +1,6 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -7,7 +9,17 @@ a {
   -ms-touch-action: manipulation;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+pre {
   margin-top: 0;
 }
 
@@ -16,6 +28,9 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
+/* Mobile/Default Styles */
+
 
 html {
   font-size: 18px;
@@ -46,7 +61,7 @@ body {
   background-image: url('./img/black-polygons-1.jpg');
   background-size: cover;
   margin: 0;
-  padding: 1rem;   /* 0.5rem for mobile */
+  padding: 0.5rem;
 }
 
 main {
@@ -83,8 +98,6 @@ a:visited {
   text-decoration: none;
 }
 
-
-
 a i {
   color: #212529
 }
@@ -93,44 +106,47 @@ a:hover i {
   color: #f88070;
 }
 
-
-
 section#header {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   text-align: center;
 
 
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 section#bio {
-   /* change horizontal for mobile */
-
   margin-top: 0;
   margin-bottom: 2rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 section#contact-info {
 
-
   margin-top: 0;
-  margin-bottom: 4rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 section#past-projects {
-  margin: 0 2rem 1rem 2rem;
+
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 section#project-ideas {
-  margin: 0 2rem 2rem 2rem;
+
+  margin-top: 0;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 section#footer {
@@ -139,8 +155,8 @@ section#footer {
 }
 
 #logo {
-  height: 5rem;      /* maybe resize for mobile */
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 #contact-links {
@@ -148,16 +164,13 @@ section#footer {
   justify-content: center;
 }
 
-#contact-links > li {
-  padding: 0 1rem;  /* change hoirzontal padding for mobile */
+#contact-links>li {
+  padding: 0 1rem;
 }
 
-
-
-
-
 #past-projects-header {
-  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 #past-projects-list {
@@ -168,10 +181,9 @@ section#footer {
 
 #past-projects-list > li {
   display: flex;
-  /* we'll need flex wrap for mobile */
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
-
 
 .project-description-container {
   flex-grow: 1;
@@ -187,31 +199,27 @@ section#footer {
 }
 
 .project-links {
-
+  margin-bottom: 1rem;
 }
 
-.project-links > li {
+.project-links>li {
   margin-bottom: 0.3rem;
 }
 
 .project-thumbnail-container {
-  padding: 0.5rem 0 1rem 1rem; /* adjust for mobile */
+  padding: 0;
 }
 
 .project-thumbnail {
-  width: 15rem;      /* adjust for mobile, maybe 100% */
+  width: 100%;
   height: auto;
   border-radius: 3px;
   border: 1px solid #212529;
 }
 
-
-
-
-
-
 #project-ideas-header {
-  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 #project-ideas-list {
@@ -220,8 +228,73 @@ section#footer {
   margin-right: 0.5rem;
 }
 
-#project-ideas-list > li {
+#project-ideas-list>li {
   display: flex;
-  /* we'll need flex wrap for mobile */
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Tablet & Desktop Styles */
+
+@media (min-width: 768px) {
+
+  body {
+    padding: 1rem;
+  }
+
+  section#header {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  section#bio {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  section#contact-info {
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  section#past-projects {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  section#project-ideas {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #logo {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  #past-projects-header {
+    margin-bottom: 2rem;
+  }
+
+  #past-projects-list > li {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .project-thumbnail-container {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  .project-thumbnail {
+    width: 15rem;
+  }
+
+  #project-ideas-header {
+    margin-bottom: 2rem;
+  }
 }
