@@ -5,20 +5,178 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TheBinaryPenguin - Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
 
   <main>
 
-      <h1>Lorem ipsum dolor sit amet</h1>
+    <section id="header">
+      <img id="logo" src="./img/thebinarypenguin-logo.svg" alt="TheBinaryPenguin Logo">
+    </section>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat neque illo nobis eum obcaecati quam, aliquid soluta repudiandae laboriosam non corporis porro voluptatibus ratione. Magni architecto porro dolorem neque perspiciatis?</p>
+    <section id="bio">
+      <p>Hello, I'm Ethan Zimmerman (or as the Internet calls me
+        TheBinaryPenguin). I'm a creative problem solver currently working as a
+        full-stack web developer.</p>
+    </section>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat neque illo nobis eum obcaecati quam, aliquid soluta repudiandae laboriosam non corporis porro voluptatibus ratione. Magni architecto porro dolorem neque perspiciatis?</p>
+    <section id="contact-info">
+      <ul>
+        <li id="github">
+          <a href="https://github.com/thebinarypenguin" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </li>
+        <li id="twitter">
+          <a href="https://twitter.com/binarypenguin" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li id="linkedin">
+          <a href="https://www.linkedin.com/in/ethan-zimmerman/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </li>
+        <li id="email">
+          <a href="mailto:thebinarypenguin@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+        </li>
+      </ul>
+    </section>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat neque illo nobis eum obcaecati quam, aliquid soluta repudiandae laboriosam non corporis porro voluptatibus ratione. Magni architecto porro dolorem neque perspiciatis?</p>
+    <section id="past-projects">
+      <h2>Some of the problems I've solved</h2>
+
+        <ul>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Thinkful Assignment: Bookmarks App</h3>
+
+              <p>This was a pair programming project for the Thinkful
+                Engineering Immersion program. Our directive was to create a
+                web app to act as a frontend to a bookmark management API
+                (which was provided for us).</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/bookmarks-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Thinkful Assignment: Simpsons Quiz Extravaganza</h3>
+
+              <p>This was a pair programming project for the Thinkful
+                Engineering Immersion program. Our directive was to create a
+                simple quiz app.</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/simpsons-quiz-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Personal Project: Ham Grid</h3>
+
+              <p>Amateur radio enthusiasts use something called the Maidenhead
+                Grid System to report their position. After learning about this
+                I decided it would be cool to overlay that grid on a google map
+                and to plot the user's position using GPS. So I created a PWA
+                called Ham Grid to do just that.</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/ham-grid-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Personal Project: Scribblez</h3>
+
+              <p>I had the realization one day that every time a new technology
+                came out I wanted to learn I'd have to invent a new sample app
+                to build. That seemed somewhat wasteful so I set out to create a
+                generic project I could reuse for each new technology. I ended
+                up creating the idea of a social network similar to twitter. I
+                call it Scribblez. Scribblez currently consists of an SQL
+                database (schema and sample data) and a REST API server.</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/scribblez-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Personal Project: Socket.IO chess</h3>
+
+              <p>I wanted to learn Socket.IO, but I didn't want to create yet
+                another chat app. So I wrote this. It's basically the same
+                idea as a chat app, but instead of passing freeform text the
+                client and server are passing around chess moves. And yes I
+                wrote my own chess rules engine (because I'd never written a
+                game rules engine before).</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/socket-io-chess-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+          <li>
+            <div class="project-description">
+              <h3 class="project-title">Personal Project: GitHub User Activity Widget (GUAW)</h3>
+
+              <p>I was looking to combine all my various social media feeds into
+                one master feed that I could display on my site. That turned out
+                to be more trouble than it was worth, but I did end up creating
+                a widget to display a users GitHub activity.</p>
+            </div>
+
+            <div class="project-thumbnail">
+              <img src="./img/guaw-thumbnail.png" alt="test test test">
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    <section id="project-ideas">
+      <h2>Some other problems I'd like to solve</h2>
+          <ul>
+            <li>
+              <div class="project-description">
+                <h3 class="project-title">Governance (not politics)</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere praesentium necessitatibus blanditiis, autem quam quae
+                  sed laborum sequi iste beatae, vero excepturi tenetur labore
+                  perspiciatis non temporibus voluptates aspernatur?
+                  Asperiores!</p>
+              </div>
+            </li>
+            <li>
+              <div class="project-description">
+                <h3 class="project-title">Economics</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere praesentium necessitatibus blanditiis, autem quam quae
+                  sed laborum sequi iste beatae, vero excepturi tenetur labore
+                  perspiciatis non temporibus voluptates aspernatur?
+                  Asperiores!</p>
+              </div>
+            </li>
+            <li>
+              <div class="project-description">
+                <h3 class="project-title">User Identity Management on the Web</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere praesentium necessitatibus blanditiis, autem quam quae
+                  sed laborum sequi iste beatae, vero excepturi tenetur labore
+                  perspiciatis non temporibus voluptates aspernatur?
+                  Asperiores!</p>
+              </div>
+            </li>
+          </ul>
+    </section>
+
+    <section id="footer">
+
+    </section>
 
   </main>
 
