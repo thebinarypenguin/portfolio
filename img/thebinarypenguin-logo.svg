@@ -1,22 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<metadata>
-<rdf:RDF>
-<cc:Work rdf:about="">
-<dc:format>image/svg+xml</dc:format>
-<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-<dc:title/>
-</cc:Work>
-</rdf:RDF>
-</metadata>
-<g transform="translate(-70.433 20.093)">
-<g transform="matrix(.7874 0 0 .7874 1108.8 250.43)">
-<g transform="translate(-1299.5 -736.61)">
-<path transform="translate(42.321 -50.534)" d="m568.57 773.79c0 165.69-134.31 300-300 300-165.69 0-300-134.31-300-300 0-165.69 134.31-300 300-300 165.69 0 300 134.31 300 300z" fill="none" stroke="#212529" stroke-width="35"/>
-</g>
-<g transform="translate(-1321.2 -728.71)">
-<path transform="matrix(1.27 0 0 1.27 2.3976 385.15)" d="m203.66 165.81c-37.486-0.13404-70.114 12.136-95.781 35.031-39.799 35.5-62.149 69.807-78.969 116.94 3.6995 108.31 203.08 231.21 313.62 158.28-27.861-107.86-68.093-120.74-71.688-160.69-2.0216-22.469 13.354-41.587 29.531-58.844 19.071-20.344 42.708-31.838 66.812-41.375 21.335-8.4413 45.071-11.281 70.781-9.5312-11.139-12.556-31.222-23.286-58.875-21.5-39.053 2.5216-47.658 3.3787-62.031 3.1875-32.344-0.43016-64.517-17.579-97.031-20.688-5.5468-0.53026-11.02-0.79335-16.375-0.8125zm25.469 23.531c4.5881-0.10365 10.25 0.22426 17.156 1.1562 9.4986 1.2819-16.213 11.081-26.25 12.125-3.3301 0.34649-6.5414-1.5419-8.75-4.9688-1.4196-2.2027 1.4576-7.9423 17.844-8.3125z" stroke="#212529" stroke-width=".7874px"/>
-</g>
-</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 520 520"
+   id="svg16"
+   sodipodi:docname="thebinarypenguin-logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="2.2603097"
+     inkscape:cx="343.73751"
+     inkscape:cy="330.02256"
+     inkscape:window-x="0"
+     inkscape:window-y="384"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-70.433 20.093)"
+     id="g14">
+    <g
+       transform="matrix(.7874 0 0 .7874 1108.8 250.43)"
+       id="g12">
+      <g
+         transform="translate(-1299.5 -736.61)"
+         id="g6">
+        <path
+           transform="translate(42.321 -50.534)"
+           d="m568.57 773.79c0 165.69-134.31 300-300 300-165.69 0-300-134.31-300-300 0-165.69 134.31-300 300-300 165.69 0 300 134.31 300 300z"
+           fill="none"
+           stroke="#212529"
+           stroke-width="35"
+           id="path4" />
+      </g>
+      <g
+         transform="translate(-1321.2 -728.71)"
+         id="g10">
+        <path
+           transform="matrix(1.27 0 0 1.27 2.3976 385.15)"
+           d="m203.66 165.81c-37.486-0.13404-70.114 12.136-95.781 35.031-39.799 35.5-62.149 69.807-78.969 116.94 3.6995 108.31 203.08 231.21 313.62 158.28-27.861-107.86-68.093-120.74-71.688-160.69-2.0216-22.469 13.354-41.587 29.531-58.844 19.071-20.344 42.708-31.838 66.812-41.375 21.335-8.4413 45.071-11.281 70.781-9.5312-11.139-12.556-31.222-23.286-58.875-21.5-39.053 2.5216-47.658 3.3787-62.031 3.1875-32.344-0.43016-64.517-17.579-97.031-20.688-5.5468-0.53026-11.02-0.79335-16.375-0.8125zm25.469 23.531c4.5881-0.10365 10.25 0.22426 17.156 1.1562 9.4986 1.2819-16.213 11.081-26.25 12.125-3.3301 0.34649-6.5414-1.5419-8.75-4.9688-1.4196-2.2027 1.4576-7.9423 17.844-8.3125z"
+           stroke="#212529"
+           stroke-width=".7874px"
+           id="path8"
+           style="fill:#212529;fill-opacity:1" />
+      </g>
+    </g>
+  </g>
 </svg>
