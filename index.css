@@ -11,6 +11,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre {
   margin-top: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 html {
   font-size: 18px;
 }
@@ -57,20 +63,37 @@ section {
 }
 
 a {
-  color: #212529;
+  color: #f88070;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #F2994A;
+  color: #f88070;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:active {
-  color: #F2994A;
+  color: #f88070;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #212529;
+  color: #f88070;
+  text-decoration: none;
 }
+
+
+
+a i {
+  color: #212529
+}
+
+a:hover i {
+  color: #f88070;
+}
+
+
 
 section#header {
   border-top-left-radius: 6px;
@@ -115,20 +138,17 @@ section#footer {
   border-bottom-right-radius: 6px;
 }
 
-#header img {
+#logo {
   height: 5rem;      /* maybe resize for mobile */
   width: 5rem;
 }
 
-#contact-info ul {
+#contact-links {
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
 }
 
-#contact-info ul li {
+#contact-links > li {
   padding: 0 1rem;  /* change hoirzontal padding for mobile */
 }
 
@@ -136,37 +156,49 @@ section#footer {
 
 
 
-#past-projects h2 {
+#past-projects-header {
   margin-bottom: 2rem;
 }
 
-#past-projects ul {
+#past-projects-list {
   padding: 0;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-#past-projects ul li {
+#past-projects-list > li {
   display: flex;
   /* we'll need flex wrap for mobile */
   margin-bottom: 1rem;
 }
 
 
-.project-description {
+.project-description-container {
   flex-grow: 1;
   flex-shrink: 1;
 }
 
-.project-description h3 {
+.project-title {
   margin-bottom: 0.2rem;
 }
 
-.project-thumbnail {
+.project-description {
+  margin-bottom: 0.5rem;
+}
+
+.project-links {
+
+}
+
+.project-links > li {
+  margin-bottom: 0.3rem;
+}
+
+.project-thumbnail-container {
   padding: 0.5rem 0 1rem 1rem; /* adjust for mobile */
 }
 
-.project-thumbnail img {
+.project-thumbnail {
   width: 15rem;      /* adjust for mobile, maybe 100% */
   height: auto;
   border-radius: 3px;
@@ -178,17 +210,17 @@ section#footer {
 
 
 
-#project-ideas h2 {
+#project-ideas-header {
   margin-bottom: 2rem;
 }
 
-#project-ideas ul {
+#project-ideas-list {
   padding: 0;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-#project-ideas ul li {
+#project-ideas-list > li {
   display: flex;
   /* we'll need flex wrap for mobile */
   margin-bottom: 1rem;

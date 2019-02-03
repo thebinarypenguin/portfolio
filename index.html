@@ -23,7 +23,7 @@
     </section>
 
     <section id="contact-info">
-      <ul>
+      <ul id="contact-links">
         <li id="github">
           <a href="https://github.com/thebinarypenguin" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         </li>
@@ -40,109 +40,139 @@
     </section>
 
     <section id="past-projects">
-      <h2>Some of the problems I've solved</h2>
+      <h2 id="past-projects-header">Some of the problems I've solved</h2>
 
-        <ul>
+        <ul id="past-projects-list">
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Thinkful Assignment: Bookmarks App</h3>
 
-              <p>This was a pair programming project for the Thinkful
+              <p class="project-description">This was a pair programming project for the Thinkful
                 Engineering Immersion program. Our directive was to create a
                 web app to act as a frontend to a bookmark management API
                 (which was provided for us).</p>
+
+              <ul class="project-links">
+                <li><a href="https://thinkful-ei-armadillo.github.io/ethan-david-bookmarks-app/">Demo</a></li>
+                <li><a href="https://github.com/thinkful-ei-armadillo/ethan-david-bookmarks-app">Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/bookmarks-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/bookmarks-thumbnail.png" alt="test test test">
             </div>
           </li>
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Thinkful Assignment: Simpsons Quiz Extravaganza</h3>
 
-              <p>This was a pair programming project for the Thinkful
+              <p class="project-description">This was a pair programming project for the Thinkful
                 Engineering Immersion program. Our directive was to create a
                 simple quiz app.</p>
+
+              <ul class="project-links">
+                <li><a href="https://thinkful-ei-armadillo.github.io/ethan-robert-quiz-app/">Demo</a></li>
+                <li><a href="https://github.com/thinkful-ei-armadillo/ethan-robert-quiz-app">Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/simpsons-quiz-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/simpsons-quiz-thumbnail.png" alt="test test test">
             </div>
           </li>
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Personal Project: Ham Grid</h3>
 
-              <p>Amateur radio enthusiasts use something called the Maidenhead
+              <p class="project-description">Amateur radio enthusiasts use something called the Maidenhead
                 Grid System to report their position. After learning about this
                 I decided it would be cool to overlay that grid on a google map
                 and to plot the user's position using GPS. So I created a PWA
                 called Ham Grid to do just that.</p>
+
+              <ul class="project-links">
+                <li><a href="https://thebinarypenguin.github.io/ham-grid/">Demo</a></li>
+                <li><a href="https://github.com/thebinarypenguin/ham-grid">Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/ham-grid-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/ham-grid-thumbnail.png" alt="test test test">
             </div>
           </li>
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Personal Project: Scribblez</h3>
 
-              <p>I had the realization one day that every time a new technology
+              <p class="project-description">I had the realization one day that every time a new technology
                 came out I wanted to learn I'd have to invent a new sample app
                 to build. That seemed somewhat wasteful so I set out to create a
                 generic project I could reuse for each new technology. I ended
                 up creating the idea of a social network similar to twitter. I
                 call it Scribblez. Scribblez currently consists of an SQL
                 database (schema and sample data) and a REST API server.</p>
+
+              <ul class="project-links">
+                <li><a href="https://github.com/thebinarypenguin/scribblez-database">Database Source Code</a></li>
+                <li><a href="https://github.com/thebinarypenguin/scribblez-rest-api-server">API Server Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/scribblez-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/scribblez-thumbnail.png" alt="test test test">
             </div>
           </li>
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Personal Project: Socket.IO chess</h3>
 
-              <p>I wanted to learn Socket.IO, but I didn't want to create yet
+              <p class="project-description">I wanted to learn Socket.IO, but I didn't want to create yet
                 another chat app. So I wrote this. It's basically the same
                 idea as a chat app, but instead of passing freeform text the
                 client and server are passing around chess moves. And yes I
                 wrote my own chess rules engine (because I'd never written a
                 game rules engine before).</p>
+
+              <ul class="project-links">
+                <li><a href="https://chess.thebinarypenguin.com/">Demo</a></li>
+                <li><a href="https://github.com/thebinarypenguin/socket.io-chess">Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/socket-io-chess-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/socket-io-chess-thumbnail.png" alt="test test test">
             </div>
           </li>
           <li>
-            <div class="project-description">
+            <div class="project-description-container">
               <h3 class="project-title">Personal Project: GitHub User Activity Widget (GUAW)</h3>
 
-              <p>I was looking to combine all my various social media feeds into
+              <p class="project-description">I was looking to combine all my various social media feeds into
                 one master feed that I could display on my site. That turned out
                 to be more trouble than it was worth, but I did end up creating
                 a widget to display a users GitHub activity.</p>
+
+              <ul class="project-links">
+                <li><a href="http://thebinarypenguin.github.io/guaw/">Demo</a></li>
+                <li><a href="https://github.com/thebinarypenguin/guaw">Source Code</a></li>
+              </ul>
             </div>
 
-            <div class="project-thumbnail">
-              <img src="./img/guaw-thumbnail.png" alt="test test test">
+            <div class="project-thumbnail-container">
+              <img class="project-thumbnail" src="./img/guaw-thumbnail.png" alt="test test test">
             </div>
           </li>
         </ul>
-      </section>
+    </section>
 
     <section id="project-ideas">
-      <h2>Some other problems I'd like to solve</h2>
-          <ul>
+      <h2 id ="project-ideas-header">Some other problems I'd like to solve</h2>
+          <ul id="project-ideas-list">
             <li>
-              <div class="project-description">
+              <div class="project-description-container">
                 <h3 class="project-title">Governance (not politics)</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facere praesentium necessitatibus blanditiis, autem quam quae
                   sed laborum sequi iste beatae, vero excepturi tenetur labore
                   perspiciatis non temporibus voluptates aspernatur?
@@ -150,10 +180,10 @@
               </div>
             </li>
             <li>
-              <div class="project-description">
+              <div class="project-description-container">
                 <h3 class="project-title">Economics</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facere praesentium necessitatibus blanditiis, autem quam quae
                   sed laborum sequi iste beatae, vero excepturi tenetur labore
                   perspiciatis non temporibus voluptates aspernatur?
@@ -161,10 +191,10 @@
               </div>
             </li>
             <li>
-              <div class="project-description">
+              <div class="project-description-container">
                 <h3 class="project-title">User Identity Management on the Web</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Facere praesentium necessitatibus blanditiis, autem quam quae
                   sed laborum sequi iste beatae, vero excepturi tenetur labore
                   perspiciatis non temporibus voluptates aspernatur?
