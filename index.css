@@ -169,7 +169,7 @@ section#footer {
 #past-projects-list > li {
   display: flex;
   /* we'll need flex wrap for mobile */
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 
